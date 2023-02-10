@@ -619,7 +619,7 @@ body {
   text-align: center;
 }
 .home_banner_wrapper .home_banner_contents figure img {
-  width: 100%;
+  width: 80%;
 }
 .home_banner_wrapper .home_banner_contents .home_banner_text h1 {
   font-size: 2.5rem;
@@ -697,6 +697,47 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
+  }
+}
+
+.home_about {
+  padding: 5rem 0 4rem 0;
+}
+.home_about_wrapper .home_about_contents {
+  text-align: center;
+}
+.home_about_wrapper .home_about_contents img {
+  width: 80%;
+}
+.home_about_wrapper .home_about_contents .h_a_text h2 {
+  color: hsl(39deg, 100%, 50%);
+  margin-top: 2rem;
+}
+.home_about_wrapper .home_about_contents .h_a_text p {
+  font-size: 1.5rem;
+  margin: 3rem 2rem;
+  text-align: justify;
+}
+@media screen and (min-width: 1024px) {
+  .home_about_wrapper .home_about_contents {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .home_about_wrapper .home_about_contents img {
+    width: 50rem;
+    margin-left: 10rem;
+  }
+  .home_about_wrapper .home_about_contents .h_a_text {
+    margin-left: 10rem;
+  }
+  .home_about_wrapper .home_about_contents .h_a_text h2 {
+    font-size: 3rem;
+  }
+  .home_about_wrapper .home_about_contents .h_a_text p {
+    font-size: 1.8rem;
+    max-width: 60rem;
+    margin: 3rem 0;
   }
 }
 

@@ -5,7 +5,7 @@
       text-align: center;
       figure{
         img{
-          width: 100%;
+          width: 80%;
         }
       }
       .home_banner_text{
@@ -94,6 +94,53 @@
     &_wrapper{
       .home_services_contents{
         @include grid (3, 1rem);
+      }
+    }
+  }
+}
+
+.home_about{
+  padding: 5rem 0 4rem 0;
+  &_wrapper{
+    .home_about_contents{
+      text-align: center;
+      img{
+        width: 80%;
+      }
+      .h_a_text{
+        h2{
+          color: $clr-primary;
+          margin-top: 2rem;
+        }
+        p{
+          font-size: 1.5rem;
+          margin: 3rem 2rem;
+          text-align: justify;
+        }
+      }
+    }
+  }
+  @include mediaQuery ($break-l){
+    &_wrapper{
+      .home_about_contents{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img{
+          width: 50rem;
+          margin-left: 10rem;
+        }
+        .h_a_text{
+          margin-left: 10rem;
+          h2{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 1.8rem;
+            max-width: 60rem;
+            margin: 3rem 0;
+          }
+        }
       }
     }
   }
