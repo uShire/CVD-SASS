@@ -1,3 +1,115 @@
+.banner1{
+  &__wrapper{
+    .banner1__text{
+      margin-top: 10rem;
+      h5{
+        font-size: 1.8rem;
+      }
+      h1{
+          font-size: 10rem;
+          color: $clr-primary;
+          
+      }
+      p{
+        margin-bottom: 2rem;
+      
+      }
+    
+    ul{
+      display: flex;
+      margin-top: 5rem;
+      li{
+        margin-right: 2rem;
+        font-size: 2.8rem;
+        i{
+          color: $clr-primary;
+        }
+      }
+    }
+  }
+  img{
+   margin-top: 2rem;
+    width: 50rem;
+  }
+  ul{
+    li{
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 2rem;
+      i{
+        color: $clr-primary;
+       
+      }
+    }
+  }
+  }
+  @include mediaQuery($break-l){
+    &__wrapper{
+      display: flex;
+      img{
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+      }
+     
+    }
+  }
+}
+
+.projects{
+  background: $clr-dark;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  &__wrapper{
+    .projects__texts{
+      h2{
+        color: $clr-primary;
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      p{
+        color: $clr-light;
+        margin-bottom: 3rem;
+      }
+    }
+    .projects__cards{
+      margin-left: 3rem;
+      margin-right: 3rem;
+      .projects__card{
+        background: $clr-light;
+        border-radius: 5rem;
+        margin-top: 5rem;
+        img{
+          width: 100%;
+        }
+        .projects__text{
+         padding-bottom: 5rem;
+          h4{
+            font-size: 2.5rem;
+            color: $clr-primary;
+            margin: 2rem 1rem 3rem 1rem;
+          }
+          p{
+            font-size: 1.8rem;
+            margin-bottom: 5rem;
+            margin: 2rem 1rem 5rem 1rem;
+          }
+        }
+      }
+    }
+  }
+  @include mediaQuery($break-l){
+    &__wrapper{
+      .projects__cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5rem;
+      }
+    }
+  }
+}
+
+
+
 .talk {
   padding: 5rem 0;
   background: $clr-primary;
