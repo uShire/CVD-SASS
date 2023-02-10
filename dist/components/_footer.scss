@@ -1,0 +1,48 @@
+.footer {
+  padding: 2rem 0;
+  background: $clr-dark;
+  &__content {
+    text-align: center;
+    margin: 0 3rem;
+  }
+  &__icons {
+    ul {
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 0 1rem;
+        i {
+          font-size: 2rem;
+          color: $clr-light;
+        }
+      }
+    }
+  }
+  p {
+    color: $clr-light;
+    margin-top: 2rem;
+  }
+  @include mediaQuery($break-l) {
+    p {
+      margin: 0;
+    }
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__icons {
+      ul {
+        li {
+          &:hover {
+            a {
+              i {
+                color: $clr-primary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
