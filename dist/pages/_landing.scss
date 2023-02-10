@@ -25,6 +25,9 @@
           padding: 1.5rem 2rem;
           border-radius: 5rem;
           margin-top: 2rem;
+          &:hover{
+            background: $clr-dark;
+          }
         }
       }
     }
@@ -85,6 +88,9 @@
             color: $clr-light;
             padding: 1.5rem 2rem;
             border-radius: 5rem;
+            &:hover{
+              background: $clr-dark;
+            }
           }
         }
       }

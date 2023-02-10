@@ -638,6 +638,9 @@ body {
   border-radius: 5rem;
   margin-top: 2rem;
 }
+.home_banner_wrapper .home_banner_contents .home_banner_text a:hover {
+  background: hsl(0deg, 0%, 18%);
+}
 @media screen and (min-width: 1024px) {
   .home_banner_wrapper .home_banner_contents {
     display: flex;
@@ -691,6 +694,9 @@ body {
   color: hsl(0deg, 0%, 100%);
   padding: 1.5rem 2rem;
   border-radius: 5rem;
+}
+.home_services_wrapper .home_services_contents .h_s_content .h_s_text a:hover {
+  background: hsl(0deg, 0%, 18%);
 }
 @media screen and (min-width: 1024px) {
   .home_services_wrapper .home_services_contents {
