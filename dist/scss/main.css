@@ -612,6 +612,56 @@ body {
   padding: 0 20rem;
 }
 
+.home_banner {
+  padding: 12rem 0 4rem 0;
+}
+.home_banner_wrapper .home_banner_contents {
+  text-align: center;
+}
+.home_banner_wrapper .home_banner_contents figure img {
+  width: 100%;
+}
+.home_banner_wrapper .home_banner_contents .home_banner_text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: hsl(39deg, 100%, 50%);
+  margin-top: 2rem;
+}
+.home_banner_wrapper .home_banner_contents .home_banner_text p {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+.home_banner_wrapper .home_banner_contents .home_banner_text a {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  padding: 1.5rem 2rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .home_banner_wrapper .home_banner_contents {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .home_banner_wrapper .home_banner_contents .home_banner_text {
+    margin-right: 20rem;
+    text-align: left;
+  }
+  .home_banner_wrapper .home_banner_contents .home_banner_text h1 {
+    font-size: 8rem;
+    max-width: 20rem;
+  }
+  .home_banner_wrapper .home_banner_contents .home_banner_text p {
+    font-size: 1.8rem;
+    max-width: 35rem;
+    text-align: justify;
+  }
+  .home_banner_wrapper .home_banner_contents .home_banner_text a {
+    font-size: 1.8rem;
+  }
+}
+
 .talk {
   padding: 5rem 0;
   background: hsl(39deg, 100%, 50%);

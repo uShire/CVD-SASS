@@ -1,3 +1,62 @@
+.home_banner{
+  padding:12rem 0 4rem 0;
+  &_wrapper{
+    .home_banner_contents{
+      text-align: center;
+      figure{
+        img{
+          width: 100%;
+        }
+      }
+      .home_banner_text{
+        h1{
+          font-size: 2.5rem;
+          font-weight: 800;
+          color: $clr-primary;
+          margin-top: 2rem;
+        }
+        p{
+          font-size: 1.5rem;
+          margin: 2rem 0;
+        }
+        a{
+          font-size: 1.5rem;
+          color: $clr-light;
+          padding: 1.5rem 2rem;
+          border-radius: 5rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  @include mediaQuery ($break-l){
+    &_wrapper{
+      .home_banner_contents{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        .home_banner_text{
+          margin-right: 20rem;
+          text-align: left;
+          h1{
+            font-size: 8rem;
+            max-width: 20rem;
+            // margin: 0 auto;
+          }
+          p{
+            font-size: 1.8rem;
+            max-width: 35rem;
+            text-align: justify;
+          }
+          a{
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 .talk {
   padding: 5rem 0;
   background: $clr-primary;
