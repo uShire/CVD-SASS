@@ -645,7 +645,7 @@ body {
     align-items: center;
   }
   .home_banner_wrapper .home_banner_contents .home_banner_text {
-    margin-right: 20rem;
+    margin-right: 30rem;
     text-align: left;
   }
   .home_banner_wrapper .home_banner_contents .home_banner_text h1 {
@@ -659,6 +659,44 @@ body {
   }
   .home_banner_wrapper .home_banner_contents .home_banner_text a {
     font-size: 1.8rem;
+  }
+}
+
+.home_services {
+  background: hsl(0deg, 0%, 18%);
+}
+.home_services_wrapper .home_services_contents {
+  text-align: center;
+}
+.home_services_wrapper .home_services_contents .h_s_content {
+  margin: 6rem 0 9rem 0;
+}
+.home_services_wrapper .home_services_contents .h_s_content img {
+  height: 5rem;
+}
+.home_services_wrapper .home_services_contents .h_s_content .h_s_text h3 {
+  font-size: 1.8rem;
+  color: hsl(39deg, 100%, 50%);
+  margin-top: 2rem;
+}
+.home_services_wrapper .home_services_contents .h_s_content .h_s_text p {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  max-width: 30rem;
+  text-align: justify;
+  margin: 3rem auto;
+}
+.home_services_wrapper .home_services_contents .h_s_content .h_s_text a {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  padding: 1.5rem 2rem;
+  border-radius: 5rem;
+}
+@media screen and (min-width: 1024px) {
+  .home_services_wrapper .home_services_contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
   }
 }
 

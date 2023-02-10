@@ -36,7 +36,7 @@
         flex-direction: row-reverse;
         align-items: center;
         .home_banner_text{
-          margin-right: 20rem;
+          margin-right: 30rem;
           text-align: left;
           h1{
             font-size: 8rem;
@@ -52,6 +52,48 @@
             font-size: 1.8rem;
           }
         }
+      }
+    }
+  }
+}
+
+.home_services{
+  background: $clr-dark;
+  &_wrapper{
+    .home_services_contents{
+      text-align: center;
+      .h_s_content{
+        margin: 6rem 0 9rem 0;
+        img{
+          height: 5rem;
+        }
+        .h_s_text{
+          h3{
+            font-size: 1.8rem;
+            color: $clr-primary;
+            margin-top: 2rem;
+          }
+          p{
+            font-size: 1.5rem;
+            color: $clr-light;
+            max-width: 30rem;
+            text-align: justify;
+            margin: 3rem auto;
+          }
+          a{
+            font-size: 1.5rem;
+            color: $clr-light;
+            padding: 1.5rem 2rem;
+            border-radius: 5rem;
+          }
+        }
+      }
+    }
+  }
+  @include mediaQuery ($break-l){
+    &_wrapper{
+      .home_services_contents{
+        @include grid (3, 1rem);
       }
     }
   }
