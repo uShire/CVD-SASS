@@ -835,10 +835,14 @@ body {
   text-align: left;
   font-style: italic;
 }
-.services_banner_wrapper a {
-  margin: auto auto;
+.services_banner .chevron_down {
+  margin-top: 3rem;
+  text-align: center;
 }
-.services_banner_wrapper a i {
+.services_banner .chevron_down a {
+  margin: 0 auto;
+}
+.services_banner .chevron_down a i {
   font-size: 2.5rem;
   color: hsl(39deg, 100%, 50%);
 }
@@ -912,10 +916,14 @@ body {
   text-align: left;
   font-style: italic;
 }
-.services_banner2_wrapper a {
-  margin: auto auto;
+.services_banner2 .chevron_down {
+  margin-top: 3rem;
+  text-align: center;
 }
-.services_banner2_wrapper a i {
+.services_banner2 .chevron_down a {
+  margin: 0 auto;
+}
+.services_banner2 .chevron_down a i {
   font-size: 2.5rem;
   color: hsl(39deg, 100%, 50%);
 }
