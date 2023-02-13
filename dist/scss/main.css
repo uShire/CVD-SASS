@@ -797,6 +797,9 @@ body {
 .services_banner {
   padding: 12rem 0 4rem 0;
 }
+.services_banner#s_banner_last {
+  padding: 5rem 0;
+}
 .services_banner_wrapper .services_banner_contents {
   text-align: center;
 }
@@ -832,6 +835,13 @@ body {
   text-align: left;
   font-style: italic;
 }
+.services_banner_wrapper a {
+  margin: auto auto;
+}
+.services_banner_wrapper a i {
+  font-size: 2.5rem;
+  color: hsl(39deg, 100%, 50%);
+}
 @media screen and (min-width: 1024px) {
   .services_banner_wrapper .services_banner_contents {
     display: flex;
@@ -842,7 +852,7 @@ body {
     margin-right: 10rem;
   }
   .services_banner_wrapper .services_banner_contents .s_b_text {
-    margin-right: 25rem;
+    margin-right: 24.5rem;
     text-align: left;
   }
   .services_banner_wrapper .services_banner_contents .s_b_text h1 {
@@ -851,12 +861,89 @@ body {
   }
   .services_banner_wrapper .services_banner_contents .s_b_text p {
     font-size: 1.8rem;
-    max-width: 45rem;
+    max-width: 50rem;
   }
   .services_banner_wrapper .services_banner_contents .s_b_text .s_b_p_text p {
     font-size: 1.8rem;
   }
   .services_banner_wrapper .services_banner_contents .s_b_text .s_b_p_text h4 {
+    font-size: 3rem;
+  }
+}
+
+.services_banner2 {
+  padding: 4rem 0 4rem 0;
+  background: hsl(0deg, 0%, 18%);
+}
+.services_banner2_wrapper .services_banner2_contents {
+  text-align: center;
+}
+.services_banner2_wrapper .services_banner2_contents figure img {
+  width: 80%;
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: hsl(39deg, 100%, 50%);
+  margin-top: 2rem;
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text p {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: 2rem 0;
+  text-align: justify;
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text {
+  margin-top: 4rem;
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text p {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: 0;
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text h4 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: hsl(39deg, 100%, 50%);
+}
+.services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text h6 {
+  max-width: 15rem;
+  color: hsl(0deg, 0%, 60%);
+  text-align: left;
+  font-style: italic;
+}
+.services_banner2_wrapper a {
+  margin: auto auto;
+}
+.services_banner2_wrapper a i {
+  font-size: 2.5rem;
+  color: hsl(39deg, 100%, 50%);
+}
+@media screen and (min-width: 1024px) {
+  .services_banner2_wrapper .services_banner2_contents {
+    display: flex;
+    align-items: center;
+  }
+  .services_banner2_wrapper .services_banner2_contents figure img {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  .services_banner2_wrapper .services_banner2_contents .s_b2_text {
+    margin-left: 20rem;
+    text-align: left;
+  }
+  .services_banner2_wrapper .services_banner2_contents .s_b2_text h1 {
+    font-size: 5rem;
+    max-width: 45rem;
+  }
+  .services_banner2_wrapper .services_banner2_contents .s_b2_text p {
+    font-size: 1.8rem;
+    max-width: 45rem;
+  }
+  .services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text p {
+    font-size: 1.8rem;
+  }
+  .services_banner2_wrapper .services_banner2_contents .s_b2_text .s_b_p2_text h4 {
     font-size: 3rem;
   }
 }

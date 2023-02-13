@@ -209,6 +209,9 @@
 
 .services_banner{
   padding: 12rem 0 4rem 0;
+  &#s_banner_last{
+    padding: 5rem 0;
+  }
   &_wrapper{
     .services_banner_contents{
       text-align: center;
@@ -249,6 +252,13 @@
         }
       }
     }
+    a{
+      margin: auto auto;
+      i{
+        font-size: 2.5rem;
+        color: $clr-primary;
+      }
+    }
   }
   @include mediaQuery ($break-l){
     &_wrapper{
@@ -263,7 +273,7 @@
           }
         }
         .s_b_text{
-          margin-right: 25rem;
+          margin-right: 24.5rem;
           text-align: left;
           h1{
             font-size: 5rem;
@@ -271,9 +281,99 @@
           }
           p{
             font-size: 1.8rem;
-            max-width: 45rem;
+            max-width: 50rem;
           }
           .s_b_p_text{
+            p{
+              font-size: 1.8rem;
+            }
+            h4{
+              font-size: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.services_banner2{
+  padding: 4rem 0 4rem 0;
+  background: $clr-dark;
+  &_wrapper{
+    .services_banner2_contents{
+      text-align: center;
+      figure{
+        img{
+          width: 80%;
+        }
+      }
+      .s_b2_text{
+        h1{
+          font-size: 2.5rem;
+          font-weight: 800;
+          color: $clr-primary;
+          margin-top: 2rem;
+        }
+        p{
+          font-size: 1.5rem;
+          color: $clr-light;
+          margin: 2rem 0;
+          text-align: justify;
+        }
+        .s_b_p2_text{
+          margin-top: 4rem;
+          p{
+            font-size: 1.5rem;
+            color: $clr-light;
+            margin: 0;
+          }
+          h4{
+            font-size: 2.5rem;
+            text-align: left;
+            color: $clr-primary;
+          }
+          h6{
+            max-width: 15rem;
+            color: $clr-gray;
+            text-align: left;
+            font-style: italic;
+          }
+        }
+      }
+    }
+    a{
+      margin: auto auto;
+      i{
+        font-size: 2.5rem;
+        color: $clr-primary;
+      }
+    }
+  }
+  @include mediaQuery ($break-l){
+    &_wrapper{
+      .services_banner2_contents{
+        display: flex;
+        // flex-direction: row-reverse;
+        align-items: center;
+        figure{
+          img{
+            width: 100%;
+            margin-left: 0.5rem;
+          }
+        }
+        .s_b2_text{
+          margin-left: 20rem;
+          text-align: left;
+          h1{
+            font-size: 5rem;
+            max-width: 45rem;
+          }
+          p{
+            font-size: 1.8rem;
+            max-width: 45rem;
+          }
+          .s_b_p2_text{
             p{
               font-size: 1.8rem;
             }
